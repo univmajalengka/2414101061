@@ -42,5 +42,5 @@ Repository ini dibuat khusus untuk:
 ---
 
 <p align="center">
-  ✍️ Dibuat dengan semangat belajar oleh <b>\Angga Januar Setiadi</b>  
+  ✍️ Dibuat dengan semangat belajar oleh <b>Angga Januar Setiadi</b>  
 </p>
