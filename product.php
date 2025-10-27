@@ -23,6 +23,7 @@ $product = $result->fetch_assoc();
     <div class="col-md-6">
       <h3><?php echo $product['name']; ?></h3>
       <p class="text-muted">Rp<?php echo number_format($product['price'], 0, ',', '.'); ?></p>
+      <p><?php echo $product['stok']; ?></p>
       <p><?php echo $product['ukuran']; ?></p>
       <form method="POST" action="cart.php">
         <input type="hidden" name="product_id" value="<?php echo $product['id']; ?>">

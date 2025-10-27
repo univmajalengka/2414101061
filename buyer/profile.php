@@ -12,7 +12,7 @@ $user = $_SESSION['users'];
 
 // 🧍 Update data pengguna
 if (isset($_POST['update'])) {
-  $name = $_POST['name'];
+  $name = $user['name'];
   $email = $user['email']; // email tetap
   $conn->query("UPDATE users SET name='$name' WHERE email='$email'");
   

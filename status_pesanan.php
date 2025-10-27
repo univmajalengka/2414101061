@@ -25,7 +25,7 @@ $result = $conn->query("SELECT * FROM orders WHERE user_id='$user_id' ORDER BY i
     <thead class="table-dark">
       <tr>
         <th>ID Pesanan</th>
-        <th>Produk</th>
+        <th>Nama</th>
         <th>Total</th>
         <th>Status</th>
         <th>Tanggal</th>
@@ -43,6 +43,7 @@ $result = $conn->query("SELECT * FROM orders WHERE user_id='$user_id' ORDER BY i
       <?php } ?>
     </tbody>
   </table>
+  <a href="index.php" class="btn btn-primary">Kembali ke Beranda</a>
 </div>
 </body>
 </html>

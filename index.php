@@ -1,12 +1,6 @@
 <?php
 session_start();
 include 'includes/config.php';
-// kalau belum login, langsung arahkan ke halaman login
-if (!isset($_SESSION['users'])) {
-    header("Location: login.php");
-    exit();
-}
-
 
 // 🔍 Ambil filter & pencarian dari URL
 $category = $_GET['category'] ?? 'all';
@@ -81,6 +75,7 @@ $result = $conn->query($query);
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item" href="buyer/profile.php">Profil Saya</a></li>
                                 <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+                                <li><a class="dropdown-item" href="admin/login.php">Login Admin</a></li>
                             </ul>
                         <?php else: ?>
                             <a class="nav-link" href="login.php"><i class="bi bi-box-arrow-in-right"></i> Login</a>
@@ -146,7 +141,25 @@ $result = $conn->query($query);
             <?php endif; ?>
         </div>
     </div>
-
+    <div class="container my-5">
+        <div class="card mx-auto shadow-lg border-0" style="max-width: 400px; border-radius: 20px;">
+            <div class="card-body text-center p-4">
+                <img src="uploads/owner.jpg" alt="Owner A7 SportStore"
+                    class="rounded-circle mb-3" width="150" height="150"
+                    style="object-fit: cover; border: 4px solid #0d6efd;">
+                <h4 class="fw-bold mb-0">Angga Js</h4>
+                <p class="text-muted mb-3">Owner & Admin A7 SportStore</p>
+                <p class="small text-secondary">
+                    “Kami berkomitmen menyediakan perlengkapan olahraga berkualitas tinggi untuk semua pelanggan kami.
+                    Terima kasih telah berbelanja di A7 SportStore!”
+                </p>
+                <div class="d-flex justify-content-center gap-3 mt-3">
+                    <a href="mailto:anggajanuarsetiadi013@gmail.com" class="btn btn-outline-primary btn-sm">✉ Email</a>
+                    <a href="https://wa.me/6281220658786" class="btn btn-success btn-sm">💬 WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 💬 Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-5">
         <p class="mb-0">&copy; <?= date('Y'); ?> A7 SportStore. Semua Hak Dilindungi.</p>

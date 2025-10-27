@@ -19,8 +19,7 @@ if (isset($_POST['update'])) {
         move_uploaded_file($_FILES['image']['tmp_name'], $target);
         $conn->query("UPDATE products SET name='$name', category='$category', price='$price', ukuran='$ukuran', stok='$stok', image='$image' WHERE id=$id");
     } else {
-        $conn->query("UPDATE products SET name='$name', category='$category', price='$price', ukuran='$ukuran', stok='$stok', WHERE id=$id");
-    }
+        $conn->query("UPDATE products SET name='$name', category='$category', price='$price', ukuran='$ukuran', stok='$stok' WHERE id='$id'");    }
     header("Location: index.php");
 }
 ?>
@@ -55,9 +54,12 @@ if (isset($_POST['update'])) {
             </div>
             <div class="mb-3">
                 <label for="ukuran" class="form-label">Ukuran</label>
-                <input type="text" name="ukuran" class="form-control" id="ukuran" placeholder="Contoh: S, M, L, XL">
+                <input type="text" name="ukuran" class="form-control" value="<?= $product['ukuran'] ?>" required id="ukuran" placeholder="Contoh: S, M, L, XL">
             </div>
-
+            <div class="mb-3">
+                <label for="ukuran" class="form-label">Stok</label>
+                <input type="number" name="stok" class="form-control" value="<?= $product['stok'] ?>" required id="stok" placeholder="">
+            </div>
             <div class="mb-3">
                 <label>Gambar Produk</label><br>
                 <img src="../uploads/<?= $product['image'] ?>" width="100" class="mb-2"><br>

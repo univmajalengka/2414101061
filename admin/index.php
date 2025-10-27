@@ -16,6 +16,7 @@ include '../includes/config.php';
   <div class="d-flex justify-content-between align-items-center mb-4">
   <h2>📦 Data Produk</h2>
   <div>
+    <a href="orders.php" class="btn btn-success me-2">Status Pemesenan</a>
     <a href="add_product.php" class="btn btn-success me-2">+ Tambah Produk</a>
     <a href="logout.php" class="btn btn-outline-danger">Logout</a>
   </div>
