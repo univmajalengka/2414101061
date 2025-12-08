@@ -1,46 +1,56 @@
-# 📚 Repository Tugas Kuliah
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/NPM-2414101061-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Prodi-Informatika-white?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Fakultas-Teknik-maroon?style=for-the-badge" />
-</p>
+# 👨‍💻 Angga Januar Setiadi
+### Mahasiswa Informatika — Universitas Majalengka
+
+NPM : **2414101061**  
+Fakultas : **Teknik**  
 
 ---
 
-## 👤 Data Mahasiswa
+📂 *Repository ini digunakan untuk menyimpan dan mengumpulkan tugas kuliah.*
 
-- **Nama** : Angga Januar Setiadi
-- **NPM** : 2414101061
-- **Program Studi** : Informatika
-- **Fakultas** : Teknik
+</div>
+
+---
+
+## 🚀 Tentang Saya
+Saya adalah mahasiswa yang sedang belajar dan mengembangkan keterampilan dalam dunia teknologi,
+khususnya dalam pemrograman dan pengembangan aplikasi web.
+
+Fokus pembelajaran saat ini:
+- Backend Programming (PHP)
+- Database Management (MySQL)
+- Git & GitHub Version Control
 
 ---
 
 ## 🎯 Tujuan Repository
-
-Repository ini dibuat khusus untuk:
-
-- Mengupload & mengumpulkan **tugas perkuliahan**
-- Menyimpan projek/coding dari berbagai mata kuliah
-- Melatih penggunaan **Git** dan **GitHub** dalam pengelolaan kode
+- Menyimpan kode dan tugas pemrograman
+- Media dokumentasi perjalanan belajar
+- Publikasi project agar dapat dikembangkan kembali
 
 ---
 
 ## 🛠️ Tools & Teknologi
-
-- **Bahasa Pemrograman** : PHP
-- **Version Control** : Git & GitHub
-
----
-
-## 📜 Catatan
-
-- Repository ini hanya digunakan untuk **keperluan akademik**
-- Semua projek/tugas bersifat **non-komersial**
+| Teknologi | Peran |
+|----------|------|
+| PHP | Logika aplikasi |
+| MySQL | Database |
+| HTML | Tampilan antarmuka |
+| GitHub | Repository online |
 
 ---
 
-<p align="center">
-  ✍️ Dibuat dengan semangat belajar oleh <b>Angga Januar Setiadi</b>  
-</p>
+## 🔐 Lisensi Penggunaan
+- Semua isi dalam repository ini **hanya untuk keperluan akademik**
+- Tidak untuk dijual atau dikomersialkan
+- Tidak untuk disalin sebagai bentuk plagiasi
+
+---
+
+<div align="center">
+
+✨ *“Tetap belajar dan berkembang setiap hari.”* ✨  
+
+</div>
